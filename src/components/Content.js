@@ -58,16 +58,6 @@ const settings = {
 const Content = () => {
   return (
     <div>
-      <div id="preloader">
-        <div className="preloader">
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-        </div>
-      </div>
       {/*
   End Preloader
   ==================================== */}
