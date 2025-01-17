@@ -302,19 +302,13 @@ Start Call To Action
                 <ul className="contact-short-info mt-4">
                   <li className="mb-3">
                     <i className="tf-ion-ios-home" />
-                    <span>Khaja Road, Bayzid, Chittagong, Bangladesh</span>
+                    <span>
+                      &nbsp;GBI City Park, RT.7/RW.14, Cengkareng, Jakarta
+                    </span>
                   </li>
                   <li className="mb-3">
                     <i className="tf-ion-android-phone-portrait" />
-                    <span>Phone: +880-31-000-000</span>
-                  </li>
-                  <li className="mb-3">
-                    <i className="tf-ion-android-globe" />
-                    <span>Fax: +880-31-000-000</span>
-                  </li>
-                  <li>
-                    <i className="tf-ion-android-mail" />
-                    <span>Email: hello@meghna.com</span>
+                    <span>&nbsp;WhatsApp: 0813-1779-6129</span>
                   </li>
                 </ul>
                 <div className="border" />
@@ -327,84 +321,6 @@ Start Call To Action
       </section>{" "}
       {/* end section */}
       <footer id="footer" className="bg-one">
-        <div className="top-footer">
-          <div className="container">
-            <div className="row justify-content-around">
-              <div className="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                <h3>about</h3>
-                <p>
-                  Integer posuere erat a ante venenati dapibus posuere velit
-                  aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris
-                  sed posuere.
-                </p>
-              </div>
-              {/* End of .col-sm-3 */}
-              <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                <ul>
-                  <li>
-                    <h3>Our Services</h3>
-                  </li>
-                  <li>
-                    <a href="service.html">Ui/Ux Design</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Graphic Design</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Web Design</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Web Development</a>
-                  </li>
-                </ul>
-              </div>
-              {/* End of .col-sm-3 */}
-              <div className="col-lg-2 col-md-6 mb-5 mb-md-0">
-                <ul>
-                  <li>
-                    <h3>Quick Links</h3>
-                  </li>
-                  <li>
-                    <a href="about.html">About</a>
-                  </li>
-                  <li>
-                    <a href="service.html">Services</a>
-                  </li>
-                  <li>
-                    <a href="blog.html">Blogs</a>
-                  </li>
-                  <li>
-                    <a href="404.html">404</a>
-                  </li>
-                </ul>
-              </div>
-              {/* End of .col-sm-3 */}
-              <div className="col-lg-3 col-md-6">
-                <ul>
-                  <li>
-                    <h3>Connect with us Socially</h3>
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com/themefisher/">Facebook</a>
-                  </li>
-                  <li>
-                    <a href="https://www.twitter.com/themefisher/">Twitter</a>
-                  </li>
-                  <li>
-                    <a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA">
-                      Youtube
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.github.com/themefisher/">Github</a>
-                  </li>
-                </ul>
-              </div>
-              {/* End of .col-sm-3 */}
-            </div>
-          </div>
-          {/* end container */}
-        </div>
         <div className="footer-bottom">
           <h5>© Copyright 2025. All rights reserved.</h5>
           <h6>
