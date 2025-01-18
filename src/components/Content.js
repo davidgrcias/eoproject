@@ -17,6 +17,8 @@ import {
   faHeart,
   faLaptopCode,
   faLocationDot,
+  faPhone,
+  faWhatsapp,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Define Arrow components
@@ -292,14 +294,25 @@ Start Call To Action
                 <h2>Kontak Kami</h2>
                 <ul className="contact-short-info mt-4">
                   <li className="mb-3">
-                    <i className="tf-ion-ios-home" />
+                    <i className="tf-ion-ios-no">
+                      {" "}
+                      <FontAwesomeIcon icon={faLocationDot} />
+                    </i>
                     <span>
                       &nbsp;GBI City Park, RT.7/RW.14, Cengkareng, Jakarta
                     </span>
                   </li>
                   <li className="mb-3">
-                    <i className="tf-ion-android-phone-portrait" />
+                    <i className="tf-ion-android-phone-no">
+                      <FontAwesomeIcon icon="" />
+                    </i>
                     <span>&nbsp;WhatsApp: 0813-1779-6129</span>
+                  </li>
+                  <li className="mb-3">
+                    <i className="tf-ion-no">
+                      <FontAwesomeIcon icon={faPhone} />
+                    </i>
+                    <span>&nbsp;Telepon: 0895-3836-78200</span>
                   </li>
                 </ul>
                 <div className="border" />
