@@ -16,6 +16,7 @@ import {
   faUtensils,
   faHeart,
   faLaptopCode,
+  faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Define Arrow components
@@ -211,9 +212,9 @@ Start About Section
                 <div className="col-md-6 col-sm-6">
                   <div className="service-item">
                     <i className="fas fa-tint">
-                      <FontAwesomeIcon icon={faTint} />
+                      <FontAwesomeIcon icon={faLocationDot} />
                     </i>
-                    <h4>Melayani Baptisan</h4>
+                    <h4>Penyediaan Tempat</h4>
                   </div>
                 </div>
                 {/* END COL */}
