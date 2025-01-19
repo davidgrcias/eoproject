@@ -8,6 +8,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import slideImage1 from "../assets/images/slider/slider-bg-1.jpg";
+import GoogleMap from "./GoogleMap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -148,7 +149,9 @@ End Fixed Navigation
                   <a
                     className="btn btn-main animated fadeInUp"
                     style={{ animationDelay: "0.8s" }}
-                    href="service.html"
+                    href="https://wa.me/6281317796129"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <FontAwesomeIcon icon={faWhatsapp} size="lg" />
                     &nbsp;Hubungi Kami
@@ -179,9 +182,12 @@ End Fixed Navigation
                   <a
                     className="btn btn-main animated fadeInUp"
                     style={{ animationDelay: "0.8s" }}
-                    href="service.html"
+                    href="https://wa.me/6281317796129"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Hubungi Kami
+                    <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+                    &nbsp;Hubungi Kami
                   </a>
                 </div>
               </div>
@@ -320,6 +326,7 @@ Start Call To Action
               </div>
             </div>
             {/* /section title */}
+            <GoogleMap />
           </div>
         </div>{" "}
         {/* end container */}
