@@ -18,8 +18,8 @@ import {
   faLaptopCode,
   faLocationDot,
   faPhone,
-  faWhatsapp,
 } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 // Define Arrow components
 function NextArrow(props) {
@@ -150,7 +150,8 @@ End Fixed Navigation
                     style={{ animationDelay: "0.8s" }}
                     href="service.html"
                   >
-                    Hubungi Kami
+                    <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+                    &nbsp;Hubungi Kami
                   </a>
                 </div>
               </div>
@@ -304,7 +305,7 @@ Start Call To Action
                   </li>
                   <li className="mb-3">
                     <i className="tf-ion-android-phone-no">
-                      <FontAwesomeIcon icon="" />
+                      <FontAwesomeIcon icon={faWhatsapp} size="lg" />
                     </i>
                     <span>&nbsp;WhatsApp: 0813-1779-6129</span>
                   </li>
